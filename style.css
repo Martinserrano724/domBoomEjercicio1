@@ -10,16 +10,18 @@ Cuando el usuario adivine el numero mostrar un mensaje indicando al usuario que 
 margin: 0;
 padding: 0;
 }
-.btJuego ,.btInicio{
+.btJuego , .btInicio{
    min-width: 200px;
    max-width: 400px;
-    margin: 5px;
+    
 }
 .inputText{
+margin: 25px;
 color: red;
+border-radius: 7px;
 border: 1px rgb(255, 157, 157) solid;
 min-width: 200px;
-   max-width: 400px;
+max-width: 400px;
 height: 50px;
 padding: 6px 12px;
 }
