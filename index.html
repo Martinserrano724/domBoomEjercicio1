@@ -12,12 +12,13 @@
     <header>
         <h1 class="text-bg-dark mb-5">Ejercicio 1</h1>
     </header>
-    <main>
-        <section class="container  col-sm-12 ">
+    <main class="container"> 
+        <section class=" container">
             <div class="row d-flex justify-content-center">
-                <button class="col-sm-12 btInicio btn btn-outline-primary" onclick="generarNumberAleatorio()" id="inicioJuego">comenzar el juego</button>
-                <input class="col-sm-12 inputText" type="text" id="numeroInput"  Onchange = "" placeholder="Ingrese un numero">
-                <button class="col-sm-12 btJuego btn btn-outline-secondary" type="submit" id="provarNumero" onclick="juego()">Provar Numero</button>
+                <p>Presiona Comenzar juego para poder ingresar numeros desde el 1 al 100 para poder empezar a jugar</p>
+                <button class="col-12 btInicio btn btn-outline-primary" onclick="generarNumberAleatorio()" id="inicioJuego">comenzar el juego</button>
+                <input class="col-12 inputText" type="text" id="numeroInput"  Onchange = "" placeholder="Ingrese un numero" minlength="1" maxlength="3">
+                <button class="col-12 btJuego btn btn-outline-secondary" type="submit" id="provarNumero" onclick="juego()">Adivinar Numero</button>
             </div>
             
        

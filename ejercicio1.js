@@ -14,6 +14,8 @@ Cuando el usuario adivine el numero mostrar un mensaje indicando al usuario que 
     document.getElementById('inicioJuego').value=numeroAleatorio
     //seteo el valor obtenido aleatorio
     const btnJuego = document.getElementById('inicioJuego');
+    btnJuego.className = `btn btn-secondary`;
+    btnJuego.innerHTML = '<b>Juego Iniciado</b>';
     btnJuego.disabled = true;  
   }
   function juego(){
