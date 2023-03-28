@@ -1,0 +1,28 @@
+/*1- Crea una web con bootstrap y js, que contenga un botón comenzar el juego, en ese momento 
+se crea un número aleatorio que el usuario deberá adivinar, la interfaz del usuario debe tener 
+además un input para ingresar un número y un botón enviar, al presionar el botón enviar mostrar 
+en un alert si el usuario adivino o no el número mágico, si no lo adivino indicarle con un alert 
+si el numero que ingreso es mayor o menor al número mágico.
+Cuando el usuario adivine el numero mostrar un mensaje indicando al usuario que adivino el numero.
+*/
+
+*{
+margin: 0;
+padding: 0;
+}
+.btJuego , .btInicio{
+   min-width: 200px;
+   max-width: 400px;
+    
+}
+.inputText{
+margin: 25px;
+color: red;
+border-radius: 7px;
+border: 1px rgb(255, 157, 157) solid;
+min-width: 200px;
+max-width: 400px;
+height: 50px;
+padding: 6px 12px;
+}
+

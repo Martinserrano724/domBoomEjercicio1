@@ -10,9 +10,21 @@
 </head>
 <body>
     <header>
-        
+        <h1 class="text-bg-dark mb-5">Ejercicio 1</h1>
     </header>
-    <main>
+    <main class="container"> 
+        <section class=" container">
+            <div class="row d-flex justify-content-center">
+                <p>Presiona Comenzar juego para poder ingresar numeros desde el 1 al 100 para poder empezar a jugar</p>
+                <button class="col-12 btInicio btn btn-outline-primary" onclick="generarNumberAleatorio()" id="inicioJuego">comenzar el juego</button>
+                <input class="col-12 inputText" type="text" id="numeroInput"  Onchange = "" placeholder="Ingrese un numero" minlength="1" maxlength="3">
+                <button class="col-12 btJuego btn btn-outline-secondary" type="submit" id="provarNumero" onclick="juego()">Adivinar Numero</button>
+            </div>
+            
+       
+    </section>
+
+ <!-- onclick nos permite llamar una funcion-->
 
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
